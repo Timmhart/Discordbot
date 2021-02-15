@@ -27,8 +27,8 @@ client.on('message', message =>{
 
     if(command === 'ping'){
         client.command.get('ping').execute(message, args);
-    } else if (command == 'youtube'){
-        client.command.get('youtube').execute(message, args);
+    } else if (command == 'website'){
+        client.command.get('website').execute(message, args);
     }
 });
 
